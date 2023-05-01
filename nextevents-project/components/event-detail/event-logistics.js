@@ -22,6 +22,7 @@ function EventLogistics(props) {
 					alt={imageAlt}
 					width={400}
 					height={400}
+					priority
 				/>
 			</div>
 			<ul className={classes.list}>
