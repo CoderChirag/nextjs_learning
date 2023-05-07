@@ -2,7 +2,7 @@ import classes from './post-content.module.css';
 import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import dracula from 'react-syntax-highlighter/dist/cjs/styles/prism/dracula';
 
 import PostHeader from '../post-header/post-header.component';
 
